@@ -1,13 +1,38 @@
+@font-face {
+  font-family: 'Visby Round Medium';
+  src: url('./fonts/VisbyRoundCF-Medium.eot');
+  src: url('./fonts/VisbyRoundCF-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Visby Round Heavy';
+  src: url('./fonts/VisbyRoundCF-Heavy.eot');
+  src: url('./fonts/VisbyRoundCF-Heavy.woff') format('woff');
+}
+
+:root {
+  --background-dark-primary: #393646;
+  --elements-dark-primary: #89758E;
+  --elements-dark-transparet-primary: #6d5d6e62;
+  --white-highlighted: #F4EEE0;
+  --white-default-text: #F4EEE0;
+  --light-text-shadow: #322f4158;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

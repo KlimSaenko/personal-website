@@ -1,0 +1,107 @@
+.sidebar {
+  .selector {
+    list-style: none;
+    font-size: 18px;
+    left: 0;
+    z-index: 0;
+    display: inline-block;
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 52px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color: var(--white-highlighted);
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    transition: 0.4s ease-out;
+  }
+
+  .selector::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 0 5px var(--white-highlighted);
+  }
+
+  .selector::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px -5px 0 5px var(--white-highlighted);
+  }
+
+  .list-item.Mui-selected {
+    color: var(--elements-dark-primary);
+    transition-delay: 0.1s;
+  }
+
+  ul {
+    height: 100%;
+  }
+
+  .MuiPaper-root {
+    position: fixed;
+    border-right: none;
+    padding: 40px 8px;
+    inset: 20px;
+    height: unset;
+    background-color: var(--elements-dark-transparet-primary);
+    width: 52px;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.15);
+    transition: 0.3s ease-out;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  .MuiPaper-root:hover {
+    width: 200px;
+    border-radius: 25px;
+    transition: 0.35s ease-out;
+  }
+
+  .list-item {
+    position: relative;
+    padding: 8px;
+    margin-bottom: 14px;
+    list-style: none;
+    border-radius: 40px;
+    font-size: 18px;
+    color: var(--white-default-text);
+
+    a {
+      display: inherit;
+      width: 100%;
+    }
+  }
+
+  .list-item:not(.Mui-selected):hover {
+    color: var(--elements-dark-primary);
+    background-color: var(--white-highlighted);
+  }
+
+  .list-item .MuiListItemIcon-root {
+    color: inherit;
+    
+    .MuiSvgIcon-root {
+      height: 36px;
+      width: 36px;
+    }
+  }
+
+  .menu-setting {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+  }
+}
