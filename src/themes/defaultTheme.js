@@ -6,11 +6,19 @@ const defaultTheme = createTheme({
     fontWeight: 400,
     fontSize: 16,
     
+    h1: {
+      fontFamily: "'Visby Round Heavy', sans-serif",
+      fontSize: 78,
+      textTransform: "uppercase",
+      textShadow: "0 0 15px #15141aad"
+    },
+
     h2: {
       fontFamily: "'Visby Round Heavy', sans-serif",
-      fontWeight: 400,
-      fontSize: 42,
-      margin: "16px"
+      fontSize: 56,
+      margin: "16px",
+      textTransform: "uppercase",
+      textShadow: "0 0 9px #2b29374f"
     }
   },
 

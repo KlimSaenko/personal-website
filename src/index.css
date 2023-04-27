@@ -10,13 +10,18 @@
   src: url('./fonts/VisbyRoundCF-Heavy.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Visby Round Bold';
+  src: url('./fonts/VisbyRoundCF-Bold.eot');
+  src: url('./fonts/VisbyRoundCF-Bold.woff') format('woff');
+}
+
 :root {
   --background-dark-primary: #393646;
   --elements-dark-primary: #89758E;
   --elements-dark-transparet-primary: #6d5d6e62;
   --white-highlighted: #F4EEE0;
   --white-default-text: #F4EEE0;
-  --light-text-shadow: #322f4158;
 }
 
 body {
