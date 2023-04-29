@@ -72,7 +72,7 @@
 
   .list-item {
     position: relative;
-    padding: 8px;
+    padding: 0;
     margin-bottom: 14px;
     list-style: none;
     border-radius: 40px;
@@ -82,6 +82,7 @@
     a {
       display: inherit;
       width: 100%;
+      padding: 8px;
     }
   }
 

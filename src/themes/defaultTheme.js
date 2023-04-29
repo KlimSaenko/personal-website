@@ -19,6 +19,13 @@ const defaultTheme = createTheme({
       margin: "16px",
       textTransform: "uppercase",
       textShadow: "0 0 9px #2b29374f"
+    },
+
+    h3: {
+      fontFamily: "'Visby Round Heavy', sans-serif",
+      fontSize: 42,
+      textTransform: "uppercase",
+      textShadow: "0 0 11px #2b29374f"
     }
   },
 

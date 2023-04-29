@@ -17,8 +17,10 @@ function App() {
         <ParallaxHome />
         
         <div className="sections-content">
-          <About />
-          <Portfolio />
+          <div className="padding-center">
+            <About />
+            <Portfolio />
+          </div>
         </div>
 
       </ParallaxProvider>

@@ -39,7 +39,7 @@ const Navbar = () => {
               to={section.name}
               spy={true}
               smooth={true}
-              duration={500}
+              duration={700}
               // onSetActive={() => SetMenuSection(index)}
               onClick={() => SetMenuSection(index)}
             >
