@@ -18,7 +18,7 @@ const defaultTheme = createTheme({
       fontSize: 56,
       margin: "16px",
       textTransform: "uppercase",
-      textShadow: "0 0 9px #2b29374f"
+      textShadow: "0 0 9px #22212c5c"
     },
 
     h3: {

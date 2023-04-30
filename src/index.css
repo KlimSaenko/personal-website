@@ -16,14 +16,6 @@
   src: url('./fonts/VisbyRoundCF-Bold.woff') format('woff');
 }
 
-:root {
-  --background-dark-primary: #393646;
-  --elements-dark-primary: #7d6a84;
-  --elements-dark-transparet-primary: #6d5d6e62;
-  --white-highlighted: #F4EEE0;
-  --white-default-text: #F4EEE0;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

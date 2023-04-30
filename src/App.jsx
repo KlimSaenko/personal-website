@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Navbar from './components/Navbar.tsx';
 import ParallaxHome from './components/ParallaxHome.tsx';
 import About from './components/About.tsx';

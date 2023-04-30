@@ -1,6 +1,8 @@
+@use 'variables' as *;
+
 .App {
   text-align: center;
-  background-color: var(--background-dark-primary);
+  background-color: $background-dark-primary;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,8 +11,8 @@
 .sections-content {
   z-index: 100;
   position: relative;
-  background: linear-gradient(0deg, rgba(22,17,38,1) 0%, var(--background-dark-primary) 100%);
-  box-shadow: 0px 0px 15px 15px var(--background-dark-primary);
+  background: linear-gradient(0deg, rgba(22,17,38,1) 0%, $background-dark-primary 100%);
+  box-shadow: 0px 0px 15px 15px $background-dark-primary;
 }
 
 .padding-center {

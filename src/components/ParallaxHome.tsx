@@ -6,7 +6,8 @@ import BackgroundLayer2 from '../background_layers/background_layer_2_1920.png';
 import BackgroundLayer3 from '../background_layers/background_layer_3_1920.png';
 import BackgroundLayer4 from '../background_layers/background_layer_4.png';
 import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
-import { Typography } from "@mui/material";
+import { ListItemIcon, Typography } from "@mui/material";
+import { FileOpenRounded } from '@mui/icons-material';
 
 function ParallaxHome() {
 
@@ -54,11 +55,31 @@ function ParallaxHome() {
                 />
 
                 <ParallaxBannerLayer
+                    translateY={[0, 65]}
+                    shouldAlwaysCompleteAnimation={true}
+                    expanded={false}
+                >
+                    <div className="home-page-primary">
+                        <div className="download-cv-button">
+                            <a href="http://localhost:3000/" target="_blank" rel="noreferrer" className="inner-button">
+                                <Typography variant="h5" color="primary">
+                                    GET CV
+                                </Typography>
+                                <ListItemIcon>
+                                    <FileOpenRounded />
+                                </ListItemIcon>
+                            </a>
+                        </div>
+                    </div>
+                </ParallaxBannerLayer>
+
+                <ParallaxBannerLayer
                     image={BackgroundLayer3}
                     easing={[0.205, 0.295, 0.520, 0.905]}
                     translateY={[0, 7]}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
+                    style={{pointerEvents: "none"}}
                 />
 
                 <ParallaxBannerLayer
@@ -67,6 +88,7 @@ function ParallaxHome() {
                     translateY={[0, 2]}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
+                    style={{pointerEvents: "none"}}
                 />
                 
             </ParallaxBanner>
