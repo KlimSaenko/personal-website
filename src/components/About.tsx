@@ -11,10 +11,10 @@ const About = () => {
       <Parallax
         className="content-block"
         easing={'easeOutSine'}
-        translateY={[120, 0]}
+        speed={4}
         opacity={[0.3, 1]}
-        startScroll={180}
-        endScroll={640}
+        startScroll={280}
+        endScroll={520}
       >
         <Typography variant="h1" color="primary">
           Full-Stack Developer
@@ -25,10 +25,10 @@ const About = () => {
         <Parallax
           className="content-block"
           easing={'easeOutQuad'}
-          translateY={[120, 0]}
+          speed={3}
           opacity={[0.3, 1]}
-          startScroll={180}
-          endScroll={640}
+          startScroll={420}
+          endScroll={780}
         >
           <Typography variant="h5" color="primary">
             UX/UI Designer and Artistic Director based in Aix-en-Provence, France.
@@ -37,48 +37,43 @@ const About = () => {
         </Parallax>
 
         <Parallax
-          className="content-block"
+          className="tags-section"
           easing={'easeOutQuad'}
-          translateY={[120, 0]}
+          speed={3}
           opacity={[0.3, 1]}
-          startScroll={180}
-          endScroll={640}
+          startScroll={660}
+          endScroll={920}
         >
-          <Typography variant="h3" color="primary">
-            Skills
-          </Typography>
+          <div className="content-block">
+            <Typography variant="h3" color="primary">
+              Skills
+            </Typography>
 
-          <div className="tags-container">
-            {tags.map((x, index) =>
-              <div key={index} className="tag-interactive">
-                <Typography variant="h5" color="primary">
-                  {x}
-                </Typography>
-              </div>
-            )}
+            <div className="tags-container">
+              {tags.map((x, index) =>
+                <div key={index} className="tag-interactive">
+                  <Typography variant="tag" color="primary">
+                    {x}
+                  </Typography>
+                </div>
+              )}
+            </div>
           </div>
-        </Parallax>
 
-        <Parallax
-          className="content-block"
-          easing={'easeOutQuad'}
-          translateY={[120, 0]}
-          opacity={[0.3, 1]}
-          startScroll={180}
-          endScroll={640}
-        >
-          <Typography variant="h3" color="primary">
-            Tools
-          </Typography>
+          <div className="content-block">
+            <Typography variant="h3" color="primary">
+              Tools
+            </Typography>
 
-          <div className="tags-container">
-            {tags.map((x, index) =>
-              <div key={index} className="tag-interactive">
-                <Typography variant="h5" color="primary">
-                  {x}
-                </Typography>
-              </div>
-            )}
+            <div className="tags-container">
+              {tags.map((x, index) =>
+                <div key={index} className="tag-interactive">
+                  <Typography variant="tag" color="primary">
+                    {x}
+                  </Typography>
+                </div>
+              )}
+            </div>
           </div>
         </Parallax>
       </div>

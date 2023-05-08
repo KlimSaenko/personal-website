@@ -40,7 +40,7 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               duration={700}
-              // onSetActive={() => SetMenuSection(index)}
+              onSetActive={() => SetMenuSection(index)}
               onClick={() => SetMenuSection(index)}
             >
               <ListItemIcon>

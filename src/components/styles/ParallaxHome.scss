@@ -5,30 +5,101 @@
 }
 
 .home-page-primary {
-    padding: 10vh 10vw;
+    padding: 12vh 12vw;
+    display: grid;
     text-align: right;
+
+    .buttons-container {
+        padding-top: 40vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        .download-cv-button {
+            margin: auto;
+            display: inline-flex;
+            
+            .inner-button {
+                padding-left: 12px;
+                padding-right: 12px;
+
+                .MuiListItemIcon-root {
+                    transition-duration: 0.23s;
+                }
+
+                &:hover .MuiListItemIcon-root {
+                    transform: translate(-100%, 0);
+                }
+            }
+        }
+
+        .social-links-container {
+            position: absolute;
+            right: 0;
+            display: grid;
+            justify-items: start;
+            align-items: start;
+            grid-auto-flow: column;
+            grid-auto-columns: max-content;
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            grid-template-rows: auto;
+            white-space: normal;
+        }
+    }
 }
 
-.download-cv-button {
-    display: inline-flex;
+.bottom-ifno {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 12vh;
+}
+
+.blur-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     background-color: $elements-dark-transparet-primary;
-    border-radius: 35px;
+    border-radius: 999em;
     overflow: hidden;
     border: none;
     padding: 0;
     box-shadow: 0 0 25px rgba(226, 209, 241, 0.5);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    transition-duration: 0.2s;
 
     .inner-button {
         display: inherit;
-        padding: 6px 12px;
-        transition-duration: 0.3s;
-    }
+        padding: 6px;
+        color: $white-default-text;
+        text-decoration: none;
+        transition-duration: 0.2s;
 
-    .inner-button:hover {
-        color: $elements-dark-primary;
-        background-color: $white-highlighted;
+        .MuiTypography-root {
+            color: $white-default-text;
+            padding: 0 10px;
+        }
+
+        .MuiListItemIcon-root {
+            justify-content: center;
+            min-width: auto;
+            color: inherit;
+            padding: 0 10px;
+
+            .MuiSvgIcon-root {
+                height: 36px;
+                width: 36px;
+            }
+        }
+
+        &:hover {
+            color: $elements-dark-primary;
+            background-color: $white-highlighted;
+        }
     }
 
     &:hover {
