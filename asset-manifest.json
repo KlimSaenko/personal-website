@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.b9819a88.css",
+    "main.js": "/personal-website/static/js/main.5f4117f7.js",
+    "static/media/background_layer_0_1920_s.png": "/personal-website/static/media/background_layer_0_1920_s.3c81a30a0bce22c1d0b0.png",
+    "static/media/background_layer_2_1920_s.png": "/personal-website/static/media/background_layer_2_1920_s.95dfc4b1d8e9f95442a8.png",
+    "static/media/background_layer_1_1920_s.png": "/personal-website/static/media/background_layer_1_1920_s.c127ce3b88d40da2db4b.png",
+    "static/media/background_layer_3_1920_s.png": "/personal-website/static/media/background_layer_3_1920_s.75ed5c5a9f4a1432a9e6.png",
+    "static/media/VisbyRoundCF-Heavy.woff": "/personal-website/static/media/VisbyRoundCF-Heavy.5b14967687bb1ecf4295.woff",
+    "static/media/VisbyRoundCF-Bold.woff": "/personal-website/static/media/VisbyRoundCF-Bold.5ac8e4088f0ff215b47e.woff",
+    "static/media/VisbyRoundCF-Medium.woff": "/personal-website/static/media/VisbyRoundCF-Medium.32100f9a5a772d90674e.woff",
+    "static/media/VisbyRoundCF-Heavy.eot": "/personal-website/static/media/VisbyRoundCF-Heavy.0a5be68e42653c18a04f.eot",
+    "static/media/VisbyRoundCF-Bold.eot": "/personal-website/static/media/VisbyRoundCF-Bold.6619cb7fa7978320045a.eot",
+    "static/media/VisbyRoundCF-Medium.eot": "/personal-website/static/media/VisbyRoundCF-Medium.7ab3a48da1dbb92ae08c.eot",
+    "static/media/background_layer_4_s.png": "/personal-website/static/media/background_layer_4_s.6ed6c9b424a985e4917e.png",
+    "index.html": "/personal-website/index.html",
+    "main.b9819a88.css.map": "/personal-website/static/css/main.b9819a88.css.map",
+    "main.5f4117f7.js.map": "/personal-website/static/js/main.5f4117f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9819a88.css",
+    "static/js/main.5f4117f7.js"
+  ]
+}
