@@ -1,7 +1,7 @@
 {
   "name": "klim-saenko-site",
   "version": "0.1.0",
-  "homepage": "https://KlimSaenko.github.io",
+  "homepage": "https://KlimSaenko.github.io/personal-website",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
