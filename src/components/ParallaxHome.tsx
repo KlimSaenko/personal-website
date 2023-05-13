@@ -1,10 +1,10 @@
 import React from "react";
 import './styles/ParallaxHome.scss';
-import BackgroundLayer0 from '../background_layers/background_layer_0_1920.png';
-import BackgroundLayer1 from '../background_layers/background_layer_1_1920.png';
-import BackgroundLayer2 from '../background_layers/background_layer_2_1920.png';
-import BackgroundLayer3 from '../background_layers/background_layer_3_1920.png';
-import BackgroundLayer4 from '../background_layers/background_layer_4.png';
+import BackgroundLayer0 from '../background_layers/background_layer_0_1920_s.png';
+import BackgroundLayer1 from '../background_layers/background_layer_1_1920_s.png';
+import BackgroundLayer2 from '../background_layers/background_layer_2_1920_s.png';
+import BackgroundLayer3 from '../background_layers/background_layer_3_1920_s.png';
+import BackgroundLayer4 from '../background_layers/background_layer_4_s.png';
 import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
 import { ListItemIcon, Typography } from "@mui/material";
 import { FileOpenRounded, GitHub, LinkedIn, Instagram } from '@mui/icons-material';

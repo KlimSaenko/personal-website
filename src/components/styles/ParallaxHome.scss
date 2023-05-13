@@ -99,6 +99,10 @@
         &:hover {
             color: $elements-dark-primary;
             background-color: $white-highlighted;
+
+            .MuiTypography-root {
+                color: $white-highlighted;
+            }
         }
     }
 
