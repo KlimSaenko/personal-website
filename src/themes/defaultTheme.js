@@ -49,7 +49,9 @@ const defaultTheme = createTheme({
 
   palette: {
     primary: {
-      main: '#d1ba87'
+      main: '#d1ba87',
+      white: '#eee6d3',
+      dark: '#393646'
     },
     home: {
       main: '#ebdfc4'

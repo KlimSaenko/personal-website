@@ -18,7 +18,7 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer0}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={[0, 50]}
+                    translateY={['0px', '250px']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 />
@@ -26,13 +26,13 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer1}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={[0, 35]}
+                    translateY={['0px', '200px']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 />
 
                 <ParallaxBannerLayer
-                    translateY={[0, 70]}
+                    translateY={['0px', '550px']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 >
@@ -49,13 +49,13 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer2}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={[0, 15]}
+                    translateY={['0px', '100px']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 />
 
                 <ParallaxBannerLayer
-                    translateY={[0, 62]}
+                    translateY={['0px', '400px']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 >
@@ -104,7 +104,7 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer3}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={[0, 8]}
+                    translateY={['0px', '60px']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                     style={{pointerEvents: "none"}}
@@ -120,7 +120,7 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer4}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={[0, 2]}
+                    translateY={['0px', '20px']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                     style={{pointerEvents: "none"}}

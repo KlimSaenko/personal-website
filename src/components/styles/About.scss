@@ -1,11 +1,6 @@
 .About {
     padding-top: 8rem;
 
-    .content-block {
-        display: inline-block;
-        padding-bottom: 3rem;
-    }
-
     .main-text {
         min-width: 50rem;
         padding-right: 8rem;
@@ -23,6 +18,12 @@
         grid-template-rows: auto;
         white-space: normal;
     }
+}
+
+.content-block {
+    display: inline-block;
+    padding-bottom: 3rem;
+    height: fit-content;
 }
 
 .tags-container {
