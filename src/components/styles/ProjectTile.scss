@@ -16,7 +16,7 @@
         align-items: center;
         display: flex;
         justify-content: center;
-        transition: 0.23s ease-in-out;
+        transition: 0.25s ease-in-out;
 
         img {
             object-fit: cover;
@@ -35,6 +35,21 @@
                 
                 h3 {
                     bottom: 0;
+                }
+            }
+
+            .project-number {
+                .open-in-icon {
+                    height: 120%;
+                    width: 200%;
+                    transition-delay: 0.29s;
+                    transition-timing-function: ease-out;
+                }
+
+                &::before {
+                    border-width: 2.2rem;
+                    transition-delay: 0s;
+                    transition-timing-function: ease-in;
                 }
             }
         }
@@ -56,7 +71,7 @@
                 position: absolute;
                 padding-top: 4rem;
                 top: 0;
-                transition: 0.23s ease-in-out;
+                transition: 0.25s ease-in-out;
             }
 
             h3 {
@@ -64,23 +79,76 @@
                 bottom: -70%;
                 text-align: center;
                 padding-bottom: 2.5rem;
-                transition: 0.23s ease-in-out;
+                transition: 0.25s ease-in-out;
             }
         }
-    }
 
-    .project-number {
-        display: flex;
-        justify-content: center;
-        background-color: #eee6d3;
-        position: absolute;
-        bottom: 1.25rem;
-        height: 3.5rem;
-        width: 3.5rem;
-        right: 8.25rem;
-        border-radius: 0.6rem;
-        flex-wrap: wrap;
-        align-content: center;
-        box-shadow: 0 0 0.8rem 0.1rem $default-shadow;
+        .project-number {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            background-color: $white-default-text;
+            position: absolute;
+            bottom: 1.25rem;
+            height: 3.5rem;
+            width: 3.5rem;
+            right: 8.25rem;
+            border-radius: 0.6rem;
+            flex-wrap: wrap;
+            align-content: center;
+            box-shadow: 0 0 0.8rem 0.1rem $default-shadow;
+
+            .project-number-inner {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                top: 1.5rem;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                transform-origin: bottom;
+                height: 0;
+                width: 90%;
+                bottom: 0;
+                background-color: transparent;
+                border: 0 solid $background-dark-primary;
+                border-top-left-radius: 50% 100%;
+                border-top-right-radius: 50% 100%;
+                transition: 0.18s ease-out;
+                transition-delay: 0.23s;
+            }
+
+            .open-in-icon {
+                position: absolute;
+                transform-origin: bottom;
+                overflow: hidden;
+                height: 0;
+                width: 0;
+                bottom: 0;
+                background-color: $white-default-text;
+                border-top-left-radius: 50% 100%;
+                border-top-right-radius: 50% 100%;
+                transition: 0.21s ease-in;
+
+                .MuiListItemIcon-root {
+                    // width: 100%;
+                    height: 3.5rem;
+                    color: $background-dark-primary;
+                    position: absolute;
+                    bottom: -1.75rem;
+                    transform: translate(-50%,-50%);
+    
+                    svg {
+                        margin: auto;
+                        width: 36px;
+                        height: 36px;
+                        min-width: 36px;
+                        min-height: 36px;
+                    }
+                }
+            }
+        }
     }
 }

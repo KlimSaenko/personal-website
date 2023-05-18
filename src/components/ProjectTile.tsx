@@ -20,11 +20,17 @@ const ProjectTile = ({pos}: Number) => {
 
             <div className="project-number">
                 <Typography variant="h4" color="primary.dark">
-                    {pos.toString()}
+                    {pos.toLocaleString('en-US', {
+                        minimumIntegerDigits: 2,
+                        useGrouping: false
+                    })}
                 </Typography>
-                <ListItemIcon>
-                    <OpenInNewRounded />
-                </ListItemIcon>
+
+                <div className="open-in-icon">
+                    <ListItemIcon>
+                        <OpenInNewRounded />
+                    </ListItemIcon>
+                </div>
             </div>
         </div>
     </div>

@@ -7,8 +7,8 @@ import ProjectTile from './ProjectTile.tsx';
 const Portfolio = () => {
   return (
     <section className="Portfolio">
-      <Typography className="project-name" variant="h2" color="primary.white">
-        Project Name
+      <Typography className="projects-title" variant="h2" color="primary.white">
+        Projects
       </Typography>
 
       <div className="projects">
