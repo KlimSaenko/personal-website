@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.b9819a88.css",
-    "main.js": "/personal-website/static/js/main.5f4117f7.js",
+    "main.css": "/personal-website/static/css/main.c0677322.css",
+    "main.js": "/personal-website/static/js/main.d76ff566.js",
     "static/media/background_layer_0_1920_s.png": "/personal-website/static/media/background_layer_0_1920_s.3c81a30a0bce22c1d0b0.png",
     "static/media/background_layer_2_1920_s.png": "/personal-website/static/media/background_layer_2_1920_s.95dfc4b1d8e9f95442a8.png",
     "static/media/background_layer_1_1920_s.png": "/personal-website/static/media/background_layer_1_1920_s.c127ce3b88d40da2db4b.png",
@@ -14,11 +14,11 @@
     "static/media/VisbyRoundCF-Medium.eot": "/personal-website/static/media/VisbyRoundCF-Medium.7ab3a48da1dbb92ae08c.eot",
     "static/media/background_layer_4_s.png": "/personal-website/static/media/background_layer_4_s.6ed6c9b424a985e4917e.png",
     "index.html": "/personal-website/index.html",
-    "main.b9819a88.css.map": "/personal-website/static/css/main.b9819a88.css.map",
-    "main.5f4117f7.js.map": "/personal-website/static/js/main.5f4117f7.js.map"
+    "main.c0677322.css.map": "/personal-website/static/css/main.c0677322.css.map",
+    "main.d76ff566.js.map": "/personal-website/static/js/main.d76ff566.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9819a88.css",
-    "static/js/main.5f4117f7.js"
+    "static/css/main.c0677322.css",
+    "static/js/main.d76ff566.js"
   ]
 }
