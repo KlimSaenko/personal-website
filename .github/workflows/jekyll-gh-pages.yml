@@ -1,9 +1,5 @@
 name: Deploy to GitHub Pages
 
-runs:
-  using: 'node16'
-  main: 'main.js'
-
 on:
   push:
     branches:
