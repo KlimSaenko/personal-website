@@ -18,7 +18,7 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer0}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={['0px', '250px']}
+                    translateY={['0', '33%']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 />
@@ -26,36 +26,41 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer1}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={['0px', '200px']}
+                    translateY={['0', '28%']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 />
 
                 <ParallaxBannerLayer
-                    translateY={['0px', '550px']}
+                    translateY={['0', '65%']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 >
                     <div className="home-page-primary">
-                        <Typography variant="h2" color="home.main">
-                            <span className="colored-letter">H</span>i!
-                        </Typography>
-                        <Typography variant="h2" color="home.main">
-                            I`m <span className="colored-letter">K</span>limentsi <span className="colored-letter">S</span>aenko
-                        </Typography>
+                        <div className="home-page-title">
+                            <Typography variant="h1" color="primary.white">
+                                I`m <span className="colored-letter">K</span>lim <span className="colored-letter">S</span>aenko
+                            </Typography>
+
+                            <div className="secondary-title">
+                                <Typography variant="h5" color="primary.white">
+                                    Full stack developer 'placeholder'
+                                </Typography>
+                            </div>
+                        </div>
                     </div>
                 </ParallaxBannerLayer>
                 
                 <ParallaxBannerLayer
                     image={BackgroundLayer2}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={['0px', '100px']}
+                    translateY={['0', '15%']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 />
 
                 <ParallaxBannerLayer
-                    translateY={['0px', '400px']}
+                    translateY={['0', '45%']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                 >
@@ -104,14 +109,14 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer3}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={['0px', '60px']}
+                    translateY={['0', '8%']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                     style={{pointerEvents: "none"}}
                     children={
-                        <div className="bottom-ifno">
+                        <div className="home-page-primary bottom-ifno">
                             <Typography color="info.main">
-                                Built from scratch by me.
+                                Built from scratch by me :)
                             </Typography>
                         </div>
                     }
@@ -120,7 +125,7 @@ function ParallaxHome() {
                 <ParallaxBannerLayer
                     image={BackgroundLayer4}
                     easing={[0.205, 0.295, 0.520, 0.905]}
-                    translateY={['0px', '20px']}
+                    translateY={['0', '4%']}
                     shouldAlwaysCompleteAnimation={true}
                     expanded={false}
                     style={{pointerEvents: "none"}}

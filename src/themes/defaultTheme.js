@@ -9,7 +9,7 @@ const defaultTheme = createTheme({
     h1: {
       fontFamily: "'Visby Round Heavy', sans-serif",
       fontSize: 78,
-      marginBottom: "16px",
+      marginBottom: "12px",
       textTransform: "uppercase",
       textShadow: "0 0 15px #19171fa1"
     },
@@ -17,7 +17,7 @@ const defaultTheme = createTheme({
     h2: {
       fontFamily: "'Visby Round Heavy', sans-serif",
       fontSize: 56,
-      marginBottom: "16px",
+      marginBottom: "12px",
       textTransform: "uppercase",
       textShadow: "0 0 9px #22212c5c"
     },

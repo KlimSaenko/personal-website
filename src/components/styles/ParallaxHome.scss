@@ -4,42 +4,55 @@
     height: 110vh;
 }
 
+.home-page-title {
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.secondary-title {
+    background-color: #453f52;
+    width: fit-content;
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.6rem;
+    margin: auto;
+    box-shadow: 0 0 12px #19171fa1;
+}
+
 .home-page-primary {
-    padding: 12vh 12vw;
+    padding: 12vh 12vw 0 calc(12vw + 2rem);
     display: grid;
-    text-align: right;
 
     .buttons-container {
         padding-top: 40vh;
         display: flex;
+        grid-gap: 4rem;
         justify-content: space-between;
         align-items: center;
-        position: relative;
+        flex-direction: column;
 
         .download-cv-button {
             margin: auto;
             display: inline-flex;
             
             .inner-button {
-                padding-left: 12px;
-                padding-right: 12px;
+                padding-left: 16px;
+                padding-right: 16px;
 
                 .MuiListItemIcon-root {
-                    transition-duration: 0.23s;
+                    position: absolute;
+                    right: 16px;
+                    transition-duration: 0.25s;
                 }
 
                 &:hover .MuiListItemIcon-root {
-                    transform: translate(-100%, 0);
+                    right: 50%;
+                    transform: translateX(50%);
                 }
             }
         }
 
         .social-links-container {
-            position: absolute;
-            right: 0;
             display: grid;
-            justify-items: start;
-            align-items: start;
             grid-auto-flow: column;
             grid-auto-columns: max-content;
             grid-column-gap: 1em;
@@ -67,7 +80,7 @@
     overflow: hidden;
     border: none;
     padding: 0;
-    box-shadow: 0 0 25px rgba(226, 209, 241, 0.5);
+    box-shadow: 0 0 22px rgba($default-shadow, 0.4);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     transition-duration: 0.2s;
@@ -81,15 +94,17 @@
 
         .MuiTypography-root {
             color: $white-default-text;
-            padding: 0 10px;
+            padding: 5px;
+            margin-right: 50px;
+            width: max-content;
         }
 
         .MuiListItemIcon-root {
             justify-content: center;
             min-width: auto;
             color: inherit;
-            padding: 0 10px;
-
+            padding: 5px;
+            
             .MuiSvgIcon-root {
                 height: 36px;
                 width: 36px;
@@ -107,6 +122,6 @@
     }
 
     &:hover {
-        box-shadow: 0 0 25px rgba($background-dark-primary, 0.5);
+        box-shadow: 0 0 25px rgba($default-shadow, 0.6);
     }
 }

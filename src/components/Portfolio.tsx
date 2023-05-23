@@ -1,8 +1,8 @@
 import React from "react";
 import './styles/Portfolio.scss';
-import { Parallax } from "react-scroll-parallax";
 import { Typography } from "@mui/material";
 import ProjectTile from './ProjectTile.tsx';
+import ArisingComponent from './ArisingComponent.tsx';
 
 const Portfolio = () => {
   return (
@@ -12,16 +12,9 @@ const Portfolio = () => {
       </Typography>
 
       <div className="projects">
-        <Parallax
-          className="content-block"
-          easing={'easeOutSine'}
-          translateY={['100px', '0px']}
-          opacity={[0.3, 1]}
-          startScroll={1050}
-          endScroll={1400}
-        >
+        <ArisingComponent scrollOffset={300} className="content-block">
           <ProjectTile pos={1} />
-        </Parallax>
+        </ArisingComponent>
       </div>
     </section>
   );
