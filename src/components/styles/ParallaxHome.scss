@@ -80,7 +80,7 @@
     overflow: hidden;
     border: none;
     padding: 0;
-    box-shadow: 0 0 22px rgba($default-shadow, 0.4);
+    box-shadow: 0 0 20px rgba($default-shadow, 0.5);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     transition-duration: 0.2s;
@@ -122,6 +122,6 @@
     }
 
     &:hover {
-        box-shadow: 0 0 25px rgba($default-shadow, 0.6);
+        box-shadow: 0 0 23px rgba($default-shadow, 0.7);
     }
 }
