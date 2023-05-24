@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.d28eabbf.css",
+    "main.css": "/personal-website/static/css/main.d997c009.css",
     "main.js": "/personal-website/static/js/main.736a41f6.js",
     "static/media/background_layer_0_1920_s.png": "/personal-website/static/media/background_layer_0_1920_s.3c81a30a0bce22c1d0b0.png",
     "static/media/background_layer_2_1920_s.png": "/personal-website/static/media/background_layer_2_1920_s.95dfc4b1d8e9f95442a8.png",
@@ -14,11 +14,11 @@
     "static/media/VisbyRoundCF-Medium.eot": "/personal-website/static/media/VisbyRoundCF-Medium.7ab3a48da1dbb92ae08c.eot",
     "static/media/background_layer_4_s.png": "/personal-website/static/media/background_layer_4_s.6ed6c9b424a985e4917e.png",
     "index.html": "/personal-website/index.html",
-    "main.d28eabbf.css.map": "/personal-website/static/css/main.d28eabbf.css.map",
+    "main.d997c009.css.map": "/personal-website/static/css/main.d997c009.css.map",
     "main.736a41f6.js.map": "/personal-website/static/js/main.736a41f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d28eabbf.css",
+    "static/css/main.d997c009.css",
     "static/js/main.736a41f6.js"
   ]
 }
